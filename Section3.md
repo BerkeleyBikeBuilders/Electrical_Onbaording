@@ -39,11 +39,11 @@ As a reminder, the schematic is the digital model for how your circuits will loo
 
  ### Exercise: LED Circuits
 
- You are tasked with designing a circuit to power an LED, and here are the circuit requirements and constraints you are given:
+ You are tasked with designing a circuit to power some LEDs, and here are the circuit requirements and constraints you are given:
 
-- One LED
-  - It has a 3V drop
-  - It needs roughly 20 mA 
+- Three LEDs
+  - Each has a 3V drop
+  - Each needs roughly 20 mA 
  
  - A 12V power source 
 

@@ -4,7 +4,7 @@
 > Also make sure you have watched this [video](https://www.youtube.com/watch?v=UPTU6nYSaMo&t=860s) before starting on this section!
 
 For this project you will be designing your own PCB: the motor driver for the Bike Builders e-bike. A potentiometer acts as the throttle, and it controls the speed of the e-bike motor through a 555 timer and PWM. Here are the project requirements:
-- A way to power and control an LED (the schematic you made in the previous section).
+- Ways to power and control LEDs (the schematic you made in the previous section).
 - A potentiometer that controls the speed of the e-bike motor through a 555 timer and PWM.
 - The board will be powered from an external 12V supply through a connector.
 
@@ -58,7 +58,7 @@ MOSFET gate resistors are used to:
 - Lead to smoother operation in PWM-controlled circuits.
 
 # Checkpoint and Deliverables (IMPORTANT!)
-- In the same file where you made your single LED circuit, you will build your PWM driver (the e-bike motor driver) circuit.
+- In the same file where you made your three LED circuits, you will build your PWM driver (the e-bike motor driver) circuit.
 - You will build the same functional circuit as the image below (it does not have to be a carbon copy!).
 - Make sure to run the ERC checker (top toolbar) to make sure KiCad is happy with your schematic!
 - Take a screenshot of your circuit (both the LED and the PWM driver) and the ERC checker, and show a lab staff member to move on to the next section once your circuit is approved!
@@ -66,6 +66,6 @@ MOSFET gate resistors are used to:
 
 Lab Staff to reach out to: (add your lab staff here)
 
-(Please note in the image below, the LED circuit on the left should be the LED circuit you made in Section 3.)
+(Please note in the image below, the LED circuits on the left should be the LED circuits you made in Section 3.)
 
 ![Onboarding Lab Schematic](https://github.com/user-attachments/assets/a69d805a-5a81-40b7-b31b-0eb244053f46)

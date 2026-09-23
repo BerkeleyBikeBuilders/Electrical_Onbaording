@@ -83,16 +83,17 @@ Your program should repeat that layer `size / 0.2` times to reach the full heigh
 
 ### A Java starting point
 
-You do not have to use this, but here is a skeleton to get you going:
+Structure your program as a class called `SimpleGcodeGenerator` with a `cube(int size)` method that writes the G-code, and call that method from `main`. Here is a skeleton to get you going:
 
 ```
 import java.io.FileWriter;
 import java.io.IOException;
 
-public class CubeGcode {
-    public static void main(String[] args) throws IOException {
-        int size = 10; // cube side length in millimeters
+public class SimpleGcodeGenerator {
 
+    // Generates the G-code for a cube of the given side length (in mm)
+    // and writes it to a file.
+    public static void cube(int size) throws IOException {
         FileWriter out = new FileWriter("cube.gcode");
 
         // 1. Write the header: G21, G91, and a feedrate
@@ -102,6 +103,11 @@ public class CubeGcode {
         //    - raise Z by 0.2 mm
 
         out.close();
+    }
+
+    public static void main(String[] args) throws IOException {
+        int n = 10; // cube side length in millimeters
+        cube(n);
     }
 }
 ```

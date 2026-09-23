@@ -11,7 +11,7 @@ For this training, you are going to design a PCB that can create PWM waves (don'
 - [Section 5](./Section5.md) goes over the PCB layout portion of KiCad.
 - [Section 6](./Section6.md) introduces G-code and has you write a program that generates it.
 
-## Deadline for returning AND new members (Saturday, Feb 8th at 6:00pm)
+## Deadline for returning AND new members (Wednesday, October 7th at 8:00pm)
 This is the last in-person office hours session for the Section 6 check-off. However, based on demand and lab staff availability, we will try to extend the deadline to Sunday.
 
 # OFFICE HOUR TIMES
