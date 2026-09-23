@@ -16,11 +16,11 @@ Let’s learn how we can mathematically analyze circuits with **Ohm’s law**. O
 
 ### Voltage
 
-But what causes electrons to flow? Power sources contain energy, called **voltage**, creating a difference in potential energy that causes electrons to flow. Picture water flowing downhill, with the hill's height representing voltage. At the top, the water has high potential energy, similar to a high voltage. As the water moves down, it flows naturally to lower points, just like current flows from high voltage to low voltage in a circuit. The steeper the hill (or the greater the voltage difference), the stronger the flow of water, much like a greater voltage difference creates a stronger current. The unit of voltage is voltage (V).
+But what causes electrons to flow? Power sources contain energy, called **voltage**, creating a difference in potential energy that causes electrons to flow. Picture water flowing downhill, with the hill's height representing voltage. At the top, the water has high potential energy, similar to a high voltage. As the water moves down, it flows naturally to lower points, just like current flows from high voltage to low voltage in a circuit. The steeper the hill (or the greater the voltage difference), the stronger the flow of water, much like a greater voltage difference creates a stronger current. The unit of voltage is volts (V).
 
 ### Resistance
 
-However, the flow of electrons, or current, can be restricted. This is called **resistance**. The unit of resistance is ohms (Ω). Resistance, along with voltage and current are related together by Ohm's law which states V = IR.
+However, the flow of electrons, or current, can be restricted. This is called **resistance**. The unit of resistance is ohms (Ω). Resistance, along with voltage and current, is related by Ohm's law which states V = IR.
 
 Together, using the triangle of Ohm’s law, we can analyze a simple circuit!
 
@@ -32,7 +32,7 @@ What is the current of this circuit? Note, that the resistor (denoted with the z
 
 ## Components and Nodal Analysis
 
-**Components** are a part that makes up an electrical circuit. Now we will discuss a variety of common components and how to use them:
+A **component** is a part that makes up an electrical circuit. Now we will discuss a variety of common components and how to use them:
 
 ### Power Supply
 
@@ -100,7 +100,7 @@ A diode is a one-way path that moves in the direction of the arrow. Current can 
 
 ![LED](https://github.com/user-attachments/assets/1ddf7aa1-5fd8-4d70-864c-1a06daa83e66)
 
-LEDs work the exact same as other diodes but with the added effect of emitting light as current flows through them - hence the name.
+LEDs work exactly the same as other diodes, but with the added effect of emitting light as current flows through them, hence the name.
 
 ### Capacitors
 

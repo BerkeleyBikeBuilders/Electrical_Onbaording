@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="470" viewBox="0 0 760 470" font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif">
+  <rect x="10" y="10" width="740" height="450" rx="18" fill="#FCFBF8" stroke="#E4E0D6" stroke-width="1.5"/>
+  <text x="380" y="50" text-anchor="middle" font-size="21" font-weight="700" fill="#23211C">Design challenge: powering a 3 V LED from 12 V</text>
+  <g stroke="#2A2824" stroke-width="2.4" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M175 165 V230"/>
+    <path d="M175 245 V335"/>
+    <path d="M175 335 H585"/>
+    <path d="M175 165 H300"/>
+    <path d="M460 165 H585"/>
+    <path d="M585 165 V225"/>
+    <path d="M585 263 V335"/>
+  </g>
+  <g stroke="#2A2824" fill="none" stroke-linecap="round">
+    <line x1="152" y1="230" x2="198" y2="230" stroke-width="2.5"/>
+    <line x1="165" y1="245" x2="185" y2="245" stroke-width="6"/>
+  </g>
+  <text x="205" y="225" font-size="16" font-weight="700" fill="#2A2824">+</text>
+  <text x="206" y="256" font-size="16" font-weight="700" fill="#2A2824">&#8211;</text>
+  <text x="118" y="234" text-anchor="middle" font-size="17" font-weight="700" fill="#23211C">12 V</text>
+  <text x="118" y="253" text-anchor="middle" font-size="12" fill="#6B675E">DC source</text>
+  <polygon points="258,165 246,159 246,171" fill="#2A2824"/>
+  <text x="236" y="150" text-anchor="middle" font-size="13" font-weight="600" fill="#2A2824">I &#8776; 20 mA</text>
+  <rect x="300" y="120" width="160" height="80" rx="12" fill="#E7F2F1" stroke="#2B7A78" stroke-width="2.2" stroke-dasharray="7 6"/>
+  <text x="380" y="178" text-anchor="middle" font-size="46" font-weight="700" fill="#2B7A78">?</text>
+  <text x="380" y="222" text-anchor="middle" font-size="13.5" font-weight="600" fill="#2B7A78">current-limiting network</text>
+  <text x="380" y="240" text-anchor="middle" font-size="12" fill="#7C8A89">(you design this)</text>
+  <polygon points="563,225 607,225 585,258" fill="#FBE7E1" stroke="#D9472B" stroke-width="2.2" stroke-linejoin="round"/>
+  <line x1="565" y1="263" x2="605" y2="263" stroke="#D9472B" stroke-width="3.2" stroke-linecap="round"/>
+  <g stroke="#D9472B" stroke-width="1.8" stroke-linecap="round" fill="#D9472B">
+    <line x1="604" y1="232" x2="628" y2="210"/>
+    <polygon points="628,210 619,211.5 624.5,202" stroke="none"/>
+    <line x1="614" y1="244" x2="638" y2="222"/>
+    <polygon points="638,222 629,223.5 634.5,214" stroke="none"/>
+  </g>
+  <text x="650" y="230" font-size="15" font-weight="700" fill="#23211C">LED</text>
+  <text x="650" y="250" font-size="14" font-weight="600" fill="#D9472B">3 V drop</text>
+  <text x="650" y="268" font-size="13" fill="#6B675E">&#8776; 20 mA</text>
+  <g stroke="#2A2824" stroke-width="2" stroke-linecap="round">
+    <line x1="380" y1="335" x2="380" y2="352"/>
+    <line x1="366" y1="352" x2="394" y2="352"/>
+    <line x1="371" y1="358" x2="389" y2="358"/>
+    <line x1="376" y1="364" x2="384" y2="364"/>
+  </g>
+  <text x="380" y="382" text-anchor="middle" font-size="11" fill="#6B675E">GND</text>
+  <line x1="70" y1="404" x2="690" y2="404" stroke="#E4E0D6" stroke-width="1.2"/>
+  <text x="380" y="426" text-anchor="middle" font-size="15" font-weight="600" fill="#23211C">KVL around the loop:  12 V  =  V(network)  +  3 V (LED)</text>
+  <text x="380" y="448" text-anchor="middle" font-size="12.5" fill="#6B675E">The LED drops 3 V and needs about 20 mA from the 12 V supply.</text>
+</svg>

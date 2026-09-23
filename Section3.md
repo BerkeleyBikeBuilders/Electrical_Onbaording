@@ -7,7 +7,7 @@ KiCad is the software we use to design schematics and PCB layouts. If you don't 
 
 We are going to want to create a new project. To do so go to `File` &#8594; `New Project`. Name your file and then save it. The project files tab should now have your file names (e.g. `your_file_name.kicad_pcb`, `your_file_name.kicad_sch`). The only two tools we are concerned with are the Schematic Editor and the PCB Editor. For now, we will focus on the Schematic Editor and come back to the PCB editor after we have finished our schematic.
 
-### Tips for Desigining Schematics
+### Tips for Designing Schematics
 
 As a reminder, the schematic is the digital model for how your circuits will look after you assemble it.
 
@@ -39,11 +39,11 @@ As a reminder, the schematic is the digital model for how your circuits will loo
 
  ### Exercise: LED Circuits
 
- You are tasked with designing a circuit to power some Leds and here are the following circuit requirements/constraints you are given:
+ You are tasked with designing a circuit to power an LED, and here are the circuit requirements and constraints you are given:
 
-- Three LEDs
-  - that has a 3V drop
-  - Needs roughly 20 mA 
+- One LED
+  - It has a 3V drop
+  - It needs roughly 20 mA 
  
  - A 12V power source 
 
@@ -51,7 +51,7 @@ As a reminder, the schematic is the digital model for how your circuits will loo
 
  #### Naive Approach
 
- Let’s imagine that you want to use the voltage divider we learned about in Section 2 to meet the 3V requirement for a signal LED. Start by constructing a voltage divider: 
+ Let’s imagine that you want to use the voltage divider we learned about in Section 2 to meet the 3V requirement for the LED. Start by constructing a voltage divider: 
 
  ![Voltage Divider](./images/voltage_divder.png)
 
