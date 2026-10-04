@@ -10,6 +10,7 @@ For this training, you are going to design a PCB that can create PWM waves (don'
 - [Section 4](./Section4.md) goes over the key concepts behind the e-bike motor driver, such as PWM, MOSFETs, and 555 timers.
 - [Section 5](./Section5.md) goes over the PCB layout portion of KiCad.
 - [Section 6](./Section6.md) introduces G-code and has you write a program that generates it.
+- [Section 7](./Section7.md) has you give a short design review of your board at the next general meeting.
 
 ## Deadline for returning AND new members (Wednesday, October 7th at 8:00pm)
 This is the last in-person office hours session for the Section 6 check-off. If you need an extension, talk to me and we can work something out.

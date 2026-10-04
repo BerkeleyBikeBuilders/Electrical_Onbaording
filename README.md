@@ -10,6 +10,7 @@ This lab is meant to teach you the workflow of designing a PCB from scratch. You
 - [Section 4](./Section4.md) PWM Driver Circuit Theory and Schematic
 - [Section 5](./Section5.md) PCB Layout in KiCad
 - [Section 6](./Section6.md) G-code
+- [Section 7](./Section7.md) Design Review Presentation
 
 ### Author:
 Lachlan Watts
