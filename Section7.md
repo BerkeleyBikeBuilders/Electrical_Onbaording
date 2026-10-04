@@ -1,6 +1,6 @@
 # Section 7: Design Review Presentation
 
-To wrap up the training, you will give a short design review of your board at the start of our next general meeting on Wednesday, October 7th at 8:00pm. This is low-pressure. The goal is simply to walk the team through what you built and the choices you made.
+To wrap up the onbaording, you will give a short design review of your board at the start of our next general meeting on Wednesday, October 7th at 8:00pm. This is low-pressure. The goal is to walk the team through what you built and the choices you made, and to introduce you to the design review culture here.
 
 ## Make your slides
 
@@ -10,7 +10,6 @@ Make your own copy of the template here: [Design Review Template](https://docs.g
 
 Your presentation should cover:
 - Purpose: what your board does (the e-bike motor driver).
-- Bill of Materials: the main parts you used.
 - Schematic: your circuit and the design choices behind it.
 - Layout: your PCB layout and why you placed and routed things the way you did.
 - Closing: what you learned and what you would do differently next time.
