@@ -76,8 +76,8 @@ G1 X10       ; side 1
 G1 Y10       ; side 2
 G1 X-10      ; side 3
 G1 Y-10      ; side 4
-G1 Z0.2      ; step up one layer
 ```
+Then fill each layer with parallel passes spaced 0.2 mm apart (the strip width) so the cube is solid instead of hollow. Finally stup up one layer with G1 Z0.2.
 
 Your program should repeat that layer `size / 0.2` times to reach the full height.
 
@@ -111,9 +111,6 @@ public class SimpleGcodeGenerator {
     }
 }
 ```
-
-Stretch goal: fill each layer with parallel passes spaced 0.2 mm apart (the strip width) so the cube is solid instead of hollow.
-
 ### Deliverable
 
 Submit your Java source and the G-code file it produces, or come to office hours to get checked off. If you want to see it move for real, we can run your file on a printer.
