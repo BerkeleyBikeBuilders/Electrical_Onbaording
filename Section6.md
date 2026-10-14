@@ -116,6 +116,6 @@ Stretch goal: fill each layer with parallel passes spaced 0.2 mm apart (the stri
 
 ### Deliverable
 
-Show a lab staff member your Java source and the G-code file it produces, or come to office hours to get checked off. If you want to see it move for real, we can run your file on a printer.
+Submit your Java source and the G-code file it produces, or come to office hours to get checked off. If you want to see it move for real, we can run your file on a printer.
 
 ### Good luck!
